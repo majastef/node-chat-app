@@ -181,3 +181,8 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+.drop-button {
+    margin: 1px;
+    padding: 1px
+}

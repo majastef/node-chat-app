@@ -73,9 +73,14 @@ const getUsersInRoom = (room) => {
     return usersInRoom
 }
 
+const getAllUsers = () => {
+    return users
+}
+
 module.exports = {
     addUser,
     removeUser,
     getUser, 
-    getUsersInRoom
+    getUsersInRoom,
+    getAllUsers
 }
